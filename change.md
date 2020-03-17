@@ -1,10 +1,6 @@
-* **child_process**: doc deprecate ChildProcess.\_channel (cjihrig) [#26982](https://github.com/nodejs/node/pull/26982)
-* **deps**: update nghttp2 to 1.37.0 (gengjiawen) [#26990](https://github.com/nodejs/node/pull/26990)
-* **dns**:
-  * make dns.promises enumerable (cjihrig) [#26592](https://github.com/nodejs/node/pull/26592)
-  * remove dns.promises experimental warning (cjihrig) [#26592](https://github.com/nodejs/node/pull/26592)
-* console:
-    * make console.table() use colored inspect (TSUYUSATO Kitsune) #20510
-    * The console.timeLog() method has been implemented. #21312
-    * console.countReset() will emit a warning if the timer being
-	reset does not exist. #21649
+i<h4 id="path-to-regexp"><path-to-regexp</h4>
+
+ From Express 5 onwards, following are the changes with respect to path-to-regexp which has direct implications to route.
+ * RegExp special characters can now only be used in a parameter, as opposed to anywhere.
+ * Parameters can have suffixes to augment meaning - *, + and ?. E.g. `/:user*`
+ * No wildcard asterisk (*) - use parameters instead ((.*) or :splat*)
