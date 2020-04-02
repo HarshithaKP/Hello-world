@@ -1,7 +1,7 @@
 i<h4 id="path-to-regexp"><path-to-regexp</h4>
 <table>
   <tr>
-     <td>(average mu = 0.132, current mu = 0.137)
+     <td colspan= 3>(average mu = 0.132, current mu = 0.137)
          deserialize GC in old space requested</td>
      <td>Reason for GC</td>
   </tr>
